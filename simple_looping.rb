@@ -12,7 +12,7 @@ def loop_iterator(number_of_times)
     phrase = "Welcome to Flatiron School's Web Development Course!"
     puts phrase
     counter = 0
-    counter ++
+    counter += 1
     break if counter == number_of_times
   end
 end
