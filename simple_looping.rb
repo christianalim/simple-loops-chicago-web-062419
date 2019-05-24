@@ -13,7 +13,7 @@ def loop_iterator(number_of_times)
     puts phrase
     counter = 0
     counter += 1
-    break if counter == number_of_times
+    break if counter == number_of_times.to_i
   end
 end
 
